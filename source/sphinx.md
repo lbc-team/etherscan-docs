@@ -1,4 +1,4 @@
-# 帮助手册：如何用Markdown写Sphinx
+# 帮助手册-用Markdown写Sphinx
 
 Sphinx 默认是使用reStructuredText(简称reST) 格式进行写作，喜欢Markdown格式可以使用Recommonmark插件来实现。
 
@@ -31,10 +31,10 @@ Sphinx 默认是使用reStructuredText(简称reST) 格式进行写作，喜欢Ma
    may be referenced with `:ref:` later.
 ```
 
-``` code-block:: markdown
+``` code-block::
      :linenos:
      :emphasize-lines: 3,5
-     :caption: 使用 code-block 的例子， 高亮 第3  5行.
+     :caption: 使用code-block 高亮 第3  5行.
      :name: Full code-block example
 
      # 注释行
@@ -53,6 +53,6 @@ Sphinx 默认是使用reStructuredText(简称reST) 格式进行写作，喜欢Ma
 
 
 ## 参考
-[Recommonmark auto_structify ](https://recommonmark.readthedocs.io/en/latest/auto_structify.html)
-[sphinx-rtd-theme](https://sphinx-rtd-theme.readthedocs.io/en/latest/index.html)
-[](http://docutils.sourceforge.net/docs/user/rst/quickref.html)
+* [Recommonmark auto_structify ](https://recommonmark.readthedocs.io/en/latest/auto_structify.html)
+* [sphinx-rtd-theme](https://sphinx-rtd-theme.readthedocs.io/en/latest/index.html)
+* [reStructuredText 格式说明](http://docutils.sourceforge.net/docs/user/rst/quickref.html)

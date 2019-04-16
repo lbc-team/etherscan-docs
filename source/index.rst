@@ -1,7 +1,7 @@
 Etherscan APIs 文档
 ================================
 
-Etherscan 是以太坊上应用最广泛的区块链浏览器，其实也提供 [API 服务](https://etherscan.io/apis)。
+Etherscan 是以太坊上应用最广泛的区块链浏览器，其实也提供 `API 服务 <https://etherscan.io/apis>`_。
 
 
 简介
@@ -22,14 +22,14 @@ Etherscan API是社区提供的服务，仅支持每秒 5 个GET或POST请求，
    Introduction.md
    Accounts.md
    Contracts.md
-   Transaction.md
+   Transactions.md
    Blocks.md
    EventLogs.md
    GethParityProxy.md
    Tokens.md
    Stats.md
    MiscToolsUtilities.md
-   sphinx-md.md
+   sphinx.md
 
 
 Indices and tables

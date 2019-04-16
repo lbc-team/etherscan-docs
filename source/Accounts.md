@@ -1,11 +1,11 @@
-# 账号(Account) 
+# 账号(Account)
 
 账号及地址相关的 API，接口的参数说明请参考[Etherscan API 约定](Introduction.md), 文档中不单独说明。
 
 ##  获取单个账号余额
 
 ``` note::
- 译者注: 
+ 译者注:
     英文 `balance` 有人翻译为`金额`，译者习惯称为`余额`。
     账号和地址大部分也是指一个意思。
 ```
@@ -17,7 +17,7 @@
 ```
 
 返回:
-```json
+```js
 {
     status: "1",
     message: "OK",
@@ -42,7 +42,7 @@
 
 返回：
 
-```json
+```js
 {
 status: "1",
 message: "OK",
@@ -75,7 +75,7 @@ balance: "332567136222827062478"
 
 返回：
 
-```json
+```js
 {
 	"status": "1",
 	"message": "OK",
@@ -106,7 +106,7 @@ balance: "332567136222827062478"
 
  **isError**： 0= 没错, 1=出错
  最多返回最近的10000个交易
- 
+
  返回字段中出现的关键字可参考[以太坊设计与实现-术语](https://learnblockchain.cn/books/geth/term.html)。
 
 
@@ -161,12 +161,12 @@ balance: "332567136222827062478"
 /api?module=account&action=getminedblocks&address=&blocktype=blocks
 ```
 
-说明：blocktype 值为 blocks（仅显示主链块） 或 uncles （仅显示叔块） ， blocks为默认值 
+说明：blocktype 值为 blocks（仅显示主链块） 或 uncles （仅显示叔块） ， blocks为默认值
 
 
 返回：
 
-```json
+```js
 {
 status: "1",
 message: "OK",
@@ -191,5 +191,3 @@ blockReward: "5086562212310617100"
 
 
 请求样例[URL](https://api.etherscan.io/api?module=account&action=getminedblocks&address=0x9dd134d14d1e65f84b706d6f205cd5b1cd03a46b&blocktype=blocks&apikey=YourApiKeyToken)及[分页请求](https://api.etherscan.io/api?module=account&action=getminedblocks&address=0x9dd134d14d1e65f84b706d6f205cd5b1cd03a46b&blocktype=blocks&page=1&offset=10&apikey=YourApiKeyToken)
-
-
