@@ -1,4 +1,4 @@
-# 用Markdown写Sphinx
+# 帮助手册：如何用Markdown写Sphinx
 
 Sphinx 默认是使用reStructuredText(简称reST) 格式进行写作，喜欢Markdown格式可以使用Recommonmark插件来实现。
 
@@ -55,3 +55,4 @@ Sphinx 默认是使用reStructuredText(简称reST) 格式进行写作，喜欢Ma
 ## 参考
 [Recommonmark auto_structify ](https://recommonmark.readthedocs.io/en/latest/auto_structify.html)
 [sphinx-rtd-theme](https://sphinx-rtd-theme.readthedocs.io/en/latest/index.html)
+[](http://docutils.sourceforge.net/docs/user/rst/quickref.html)
