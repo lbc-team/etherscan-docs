@@ -17,7 +17,8 @@
 
 Here are some examples of how this filter maybe used:
 
-## Get Event Logs from block number 379224 to 'latest' Block, where log address = 0x33990122638b9132ca29c723bdf037f1a891a70c and topic[0] = 0xf63780e752c6a54a94fc52715dbc5518a3b4c3c2833d301a204226548a2a8545
+## 通过指定区块获取日志
+Get Event Logs from block number 379224 to 'latest' Block, where log address = 0x33990122638b9132ca29c723bdf037f1a891a70c and topic[0] = 0xf63780e752c6a54a94fc52715dbc5518a3b4c3c2833d301a204226548a2a8545
 
 ```
 https://api.etherscan.io/api?module=logs&action=getLogs
@@ -28,7 +29,9 @@ https://api.etherscan.io/api?module=logs&action=getLogs
 &apikey=YourApiKeyToken
 ```
 
-## Get Event Logs from block number 379224 to block 400000 , where log address = 0x33990122638b9132ca29c723bdf037f1a891a70c, topic[0] = 0xf63780e752c6a54a94fc52715dbc5518a3b4c3c2833d301a204226548a2a8545 'AND' topic[1] = 0x72657075746174696f6e00000000000000000000000000000000000000000000
+## 通过指定区块获取日志
+
+Get Event Logs from block number 379224 to block 400000 , where log address = 0x33990122638b9132ca29c723bdf037f1a891a70c, topic[0] = 0xf63780e752c6a54a94fc52715dbc5518a3b4c3c2833d301a204226548a2a8545 'AND' topic[1] = 0x72657075746174696f6e00000000000000000000000000000000000000000000
 
 ```
 https://api.etherscan.io/api?module=logs&action=getLogs
