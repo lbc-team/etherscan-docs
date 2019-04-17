@@ -4,7 +4,7 @@ Etherscan APIs 中文文档
 Etherscan 是以太坊上应用最广泛的区块链浏览器，也提供 `API 服务 <https://etherscan.io/apis>`_。
 
 本翻译由 `深入浅出区块链  <https://learnblockchain.cn/>`_ 社区成员翻译、整理、校队。需转载请联系微信：xlbxiong 获取授权。
-如您在阅读时发现不准确或错误的地方，欢迎到[GitHub 提Issues](https://github.com/lbc-team/etherscan-docs)指正。
+如您在阅读时发现不准确或错误的地方，欢迎到 `GitHub 提Issues  <https://github.com/lbc-team/etherscan-docs>`_ 指正。
 
 
 简介
