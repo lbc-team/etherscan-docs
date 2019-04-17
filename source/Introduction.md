@@ -14,7 +14,7 @@ Etherscan API 主要包含模块有：
 * 状态相关接口
 * 一些相关工具相关接口
 
-这些模块对应着左侧的一级菜单。
+这些模块对应着左侧的一级菜单，在接口中使用`module`参数指定
 
 ## 参数
 
@@ -27,7 +27,7 @@ Etherscan API 主要包含模块有：
 * apikey: 用户API-key 根据key来统计请求限额；
 * startblock: 起始查询块 id，可选，默认值为 0；
 * endblock: 结束查询块 id，可选，默认值为最后一个区块；
-* tag:  状态：pending 或 latest 
+* tag:  状态：pending 或 latest
 * blocktype: 块类型：blocks（主链块） 或 uncles （叔块）
 * page: 页码，可选；
 * offset: 每页查询记录数，可选，默认是查询 10000 条记录；
@@ -38,13 +38,8 @@ module、action、apikey是每个 API 都有的参数，其他的参数则因不
 
 ## 测试网络接口Host
 
-主网的Host是 api.etherscan.io，其实Etherscan API 所有接口在测试网络下也使用，只是所使用的域名不同，目前支持的三个网络的Host为：
+主网的Host是 **api.etherscan.io**，其实Etherscan API 所有接口在测试网络下也使用，只是所使用的域名不同，目前支持的三个网络的Host为：
 
 * api-ropsten.etherscan.io
 * api-kovan.etherscan.io
 * api-rinkeby.etherscan.io
-
-
-
-
-

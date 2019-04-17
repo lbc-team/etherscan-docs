@@ -3,7 +3,7 @@
 
 These are 3rd party tools and utilities created by the community and we do not provide any support or warranties for the solutions listed below
 
-## py-etherscan-api module (corpetty)
+## Python API 封装 (by corpetty)
 
 ```
 https://github.com/corpetty/py-etherscan-api
@@ -11,7 +11,7 @@ https://github.com/corpetty/py-etherscan-api
 
 (A 3rd party EtherScan.io API python bindings module written by Corey Petty)
 
-## node API (Sebastian Schürmann)
+## node API 封装 ( by Sebastian Schürmann)
 
 
 ```
@@ -34,5 +34,3 @@ https://github.com/nanmu42/etherscan-api
 ```
  https://github.com/dzarezenko/etherscan-api
 ```
-
-

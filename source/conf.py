@@ -8,12 +8,12 @@ import recommonmark
 from recommonmark.transform import AutoStructify
 
 
-github_doc_root = './'
+github_doc_root = 'https://github.com/lbc-team/etherscan-docs/tree/master/source/'
 
 # At the bottom of conf.py
 def setup(app):
     app.add_config_value('recommonmark_config', {
-            'url_resolver': lambda url: github_doc_root + url,
+            'url_resolver': lambda url: github_doc_root + url[:-4],
             'auto_toc_tree_section': 'Contents',
             }, True)
     app.add_transform(AutoStructify)
