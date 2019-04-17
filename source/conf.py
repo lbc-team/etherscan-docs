@@ -18,6 +18,8 @@ def setup(app):
             }, True)
     app.add_transform(AutoStructify)
 
+    app.add_javascript('https://s22.cnzz.com/z_stat.php?id=1265946080&web_id=1265946080')
+
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -37,7 +39,7 @@ copyright = '2019, 深入浅出区块链'
 author = 'Tiny熊'
 
 # The full version, including alpha/beta/rc tags
-release = 'latest'
+release = 'Latest'
 
 
 # -- General configuration ---------------------------------------------------
