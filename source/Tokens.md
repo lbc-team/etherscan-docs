@@ -4,7 +4,7 @@
 
 ## 通过合约地址获取ERC20 Token总供应量
 
-了解[ERC20 代币定义于创建](https://learnblockchain.cn/2018/01/12/create_token/)
+了解[ERC20 代币定义与创建](https://learnblockchain.cn/2018/01/12/create_token/)
 
 
 ```
