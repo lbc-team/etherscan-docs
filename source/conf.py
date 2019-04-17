@@ -32,8 +32,8 @@ def setup(app):
 
 # -- Project information -----------------------------------------------------
 
-project = 'Etherscan 接口中文文档'
-copyright = '2019, Tiny熊'
+project = 'Etherscan API 中文文档'
+copyright = '2019, 深入浅出区块链'
 author = 'Tiny熊'
 
 # The full version, including alpha/beta/rc tags

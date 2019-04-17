@@ -1,4 +1,4 @@
-Etherscan APIs 中文文档
+Etherscan 文档简介
 ================================
 
 Etherscan 是以太坊上应用最广泛的区块链浏览器，也提供 `API 服务 <https://etherscan.io/apis>`_。
