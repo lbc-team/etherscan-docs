@@ -1,15 +1,13 @@
-Etherscan 文档简介
+Etherscan 使用说明
 ================================
 
-Etherscan 是以太坊上应用最广泛的区块链浏览器，也提供 `API 服务 <https://etherscan.io/apis>`_。
-
-本翻译由 `深入浅出区块链  <https://learnblockchain.cn/>`_ 社区成员翻译、整理、校队。需转载请联系微信：xlbxiong 获取授权。
-如您在阅读时发现不准确或错误的地方，欢迎到 `GitHub 提Issues  <https://github.com/lbc-team/etherscan-docs>`_ 指正。
-
+本文档是基于 `官方最新文档 <https://etherscan.io/apis>`_ 由 `深入浅出区块链  <https://learnblockchain.cn/>`_ 社区成员整理、翻译及校队，我们虽力求准确，但如您发现纰漏，欢迎到 `GitHub 提Issues  <https://github.com/lbc-team/etherscan-docs>`_ 指正。
+尊重汗水，需转载请联系微信：xlbxiong 获取授权。
 
 简介
 ==================
 
+Etherscan 是以太坊上应用最广泛的区块链浏览器，也提供 `API 服务 <https://etherscan.io/apis>`_。
 我们知道以太坊节点提供的API功能有限，尤其是需要一些多个区块相关的数据时，必须要依靠Etherscan API这样的服务。
 
 Etherscan API是社区提供的服务，仅支持每秒 5 个GET或POST请求，可以在这个地址 `API-Keys <https://etherscan.io/myapikey>`_ 申请一个Key。
