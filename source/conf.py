@@ -18,7 +18,7 @@ def setup(app):
             }, True)
     app.add_transform(AutoStructify)
 
-    app.add_javascript('https://s22.cnzz.com/z_stat.php?id=1265946080&web_id=1265946080')
+    app.add_javascript('z_stat.js')
 
 # -- Path setup --------------------------------------------------------------
 
@@ -39,7 +39,8 @@ copyright = '2019, 深入浅出区块链'
 author = 'Tiny熊'
 
 # The full version, including alpha/beta/rc tags
-release = 'Latest'
+release = ''
+version = 'Latest'
 
 
 # -- General configuration ---------------------------------------------------
@@ -60,12 +61,35 @@ html_theme_options = {
     'style_external_links': False,
     # 'style_nav_header_background': 'blue',
     # Toc options
-    'collapse_navigation': True,
+    'collapse_navigation': False,
     'sticky_navigation': True,
     'navigation_depth': 4,
     'includehidden': True,
-    'titles_only': False
+    'titles_only': False,
+
 }
+
+# There are two options for replacing |today|: either, you set today to some
+# non-false value, then it is used:
+#today = ''
+# Else, today_fmt is used as the format for a strftime call.
+#today_fmt = '%B %d, %Y'
+
+
+# If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
+# using the given strftime format.
+html_last_updated_fmt = '%Y/%b/%d'
+
+html_show_sourcelink = False
+
+#html_show_copyright = True
+
+# html_context = {
+    # "display_github": True, # Add 'Edit on Github' link instead of 'View page source'
+    # "last_updated": True,
+    # "commit": False,
+    # "github_url": "https://github.com/lbc-team/etherscan-docs/"
+# }
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -76,11 +100,24 @@ templates_path = ['_templates']
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = 'zh_CN'
+html_search_language = 'zh_CN'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
+# Custom sidebar templates, must be a dictionary that maps document names
+# to template names.
+#
+# This is required for the alabaster theme
+# refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
+# html_sidebars = {
+#     '**': [
+#         'search.html',
+#     ]
+# }
 
 
 # -- Options for HTML output -------------------------------------------------
