@@ -10,7 +10,7 @@
 
 * fromBlock and toBlock accepts the blocknumber (integer, NOT hex) or 'latest' (earliest & pending is NOT supported yet)
 * Topic Operator (opr) choices are either 'and' or 'or' and are restricted to the above choices only
-* fromBlock and toBlock parameters are required 
+* fromBlock and toBlock parameters are required
 * Either the address and/or topic(X) parameters are required, when multiple topic(X) parameters are used the topicX_X_opr (and|or operator) is also required
 * For performance & security considerations, only the first 1000 results are return. So please narrow down the filter parameters
 
@@ -18,7 +18,8 @@
 Here are some examples of how this filter maybe used:
 
 ## 通过指定区块获取日志
-Get Event Logs from block number 379224 to 'latest' Block, where log address = 0x33990122638b9132ca29c723bdf037f1a891a70c and topic[0] = 0xf63780e752c6a54a94fc52715dbc5518a3b4c3c2833d301a204226548a2a8545
+
+如获取地址为 0x33990122638b9132ca29c723bdf037f1a891a70c 区块从 379224 到最新区块 主题 topic[0] = 0xf63780e752c6a54a94fc52715dbc5518a3b4c3c2833d301a204226548a2a8545 的事件日志的方法为：
 
 ```
 https://api.etherscan.io/api?module=logs&action=getLogs
@@ -43,4 +44,3 @@ https://api.etherscan.io/api?module=logs&action=getLogs
 &topic1=0x72657075746174696f6e00000000000000000000000000000000000000000000
 &apikey=YourApiKeyToken
 ```
-

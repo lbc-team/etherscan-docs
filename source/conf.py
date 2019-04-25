@@ -18,8 +18,6 @@ def setup(app):
             }, True)
     app.add_transform(AutoStructify)
 
-    app.add_javascript('z_stat.js')
-
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
