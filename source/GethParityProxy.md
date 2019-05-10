@@ -6,7 +6,7 @@ The following are the limited list of supported Proxied APIs for Geth available 
 
 ## 获取最近区块号
 
-Returns the number of most recent block
+返回最近块的数量(同区块号)
 
 ```
 https://api.etherscan.io/api?module=proxy&action=eth_blockNumber&apikey=YourApiKeyToken
